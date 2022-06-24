@@ -20,5 +20,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [빡상 개발 블로그]([https://cli.vuejs.org/config/](https://bbakssang.tistory.com/category/FrontEnd/Vue3)).
+개발 현황 정리 :point_right:
+[빡상 Vue3 To-do-list](https://bbakssang.tistory.com/category/FrontEnd/Vue3)
+
