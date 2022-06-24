@@ -21,4 +21,4 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [빡상 개발 블로그]([https://cli.vuejs.org/config/](https://bbakssang.tistory.com/category/FrontEnd/Vue3)).
