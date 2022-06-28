@@ -4,6 +4,7 @@
       <div class="form-check flex-grow-1">
         <input
           class="CheckInput"
+          :checked="i.isdone"
           :value="todolist.isdone"
           @change="toggleTodo(index)"
           type="checkbox"

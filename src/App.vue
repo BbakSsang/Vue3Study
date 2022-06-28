@@ -80,9 +80,23 @@ var todoAddapp = async (todo) => {
   }
 };
 
-var toggleTodo = (index) => {
+var toggleTodo = async (index) => {
+  let id = todolist.value[index].id;
+  try {
+    await axios.patch("http://localhost:3000/todolist/" + id, {
+      isdone: !todolist.value[index].isdone,
+
+      // console.log(index)
+    });
+  } catch (err) {
+    throw err;
+  }
   todolist.value[index].isdone = !todolist.value[index].isdone;
 };
+
+// var toggleTodo = (index) => {
+//   todolist.value[index].isdone = !todolist.value[index].isdone;
+// };
 
 // let todoStyle = {
 //   textDecoration: "line-through",
